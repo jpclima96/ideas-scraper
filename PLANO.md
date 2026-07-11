@@ -1,5 +1,9 @@
 # Plano — Scraper de Ideias de Design (Web & Mobile)
 
+> **Status (2026-07-11):** decisões tomadas e MVP completo implementado.
+> Entrega escolhida: **galeria no GitHub Pages** (repo como fonte de verdade). Digest por e-mail e categorização com IA ficaram como extensões futuras (seção 6, Fase 4).
+> Ver [README.md](README.md) para uso e ativação do Pages.
+
 ## 1. Objetivo
 
 Coletar automaticamente referências de design (web e mobile) de fontes como Dribbble e Behance, salvá-las **categorizadas** (ex.: landing page, dashboard, app fintech, dark mode, etc.) e entregá-las de forma fácil de consultar durante os projetos.
@@ -67,13 +71,11 @@ Os três não são excludentes — a pergunta certa é **qual é a base e o que 
 | **Só landing page** | Ótima experiência de consulta (galeria, filtros) | Precisa de onde guardar os dados de qualquer forma |
 | **Só e-mail** | Chega até você sem esforço | Não serve como acervo pesquisável; e-mail antigo se perde |
 
-### ✅ Recomendação: os três em camadas, nesta ordem
+### ✅ Decisão tomada: repositório + galeria no GitHub Pages
 
-1. **Repositório como fonte de verdade** (obrigatório) — scraper + dados JSON + thumbs, rodando via GitHub Actions.
-2. **Landing page estática no GitHub Pages** (o "produto") — galeria gerada a partir do JSON, com filtros por categoria/plataforma/estilo e busca. Custo zero, deploy automático no mesmo Action.
-3. **E-mail digest semanal** (opcional, fase 3) — Action semanal envia as ~10 melhores novidades via [Resend](https://resend.com) (free tier: 100 emails/dia) ou SMTP do Gmail. Serve como *lembrete* para visitar a galeria, não como acervo.
-
-Justificativa: o repo você precisa ter de qualquer jeito; a galeria é o que torna o acervo **utilizável** para buscar referência no meio de um projeto; o e-mail resolve o problema de "esquecer que a ferramenta existe".
+1. **Repositório como fonte de verdade** — scraper + dados JSON + thumbs, rodando via GitHub Actions. ✔ implementado
+2. **Galeria estática no GitHub Pages** (o "produto") — gerada a partir do JSON, com filtros por fonte/plataforma/tipo/estilo e busca. Custo zero, deploy automático no mesmo Action. ✔ implementado
+3. **E-mail digest semanal** — descartado por ora (decisão do usuário). Se voltar a interessar: Action semanal com as ~10 melhores novidades via [Resend](https://resend.com) ou SMTP do Gmail, como *lembrete* para visitar a galeria.
 
 ## 5. Stack sugerida
 
@@ -84,26 +86,27 @@ Justificativa: o repo você precisa ter de qualquer jeito; a galeria é o que to
 
 ## 6. Fases de implementação
 
-### Fase 1 — MVP (repo + 1 fonte)
-- [ ] Estrutura do projeto Python
-- [ ] Coletor Dribbble via RSS (popular + 3–4 tags de interesse)
-- [ ] Deduplicação + download de thumbnails
-- [ ] Categorização por tags/palavras-chave (sem IA)
-- [ ] GitHub Action rodando diariamente e commitando `data/`
+### Fase 1 — MVP (repo + 1 fonte) ✔ concluída
+- [x] Estrutura do projeto Python
+- [x] Coletor Dribbble via RSS (popular + tags de interesse)
+- [x] Deduplicação + download de thumbnails
+- [x] Categorização por tags/palavras-chave (sem IA)
+- [x] GitHub Action rodando diariamente e commitando `data/`
 
-### Fase 2 — Galeria (GitHub Pages)
-- [ ] Página de galeria com grid de thumbs
-- [ ] Filtros: plataforma, tipo, estilo, fonte
-- [ ] Busca por texto
-- [ ] Deploy automático no mesmo workflow
+### Fase 2 — Galeria (GitHub Pages) ✔ concluída
+- [x] Página de galeria com grid de thumbs
+- [x] Filtros: plataforma, tipo, estilo, fonte
+- [x] Busca por texto
+- [x] Deploy automático no mesmo workflow
 
-### Fase 3 — Mais fontes + inteligência
-- [ ] Coletor Behance (Playwright)
-- [ ] Coletor Land-book / Awwwards
+### Fase 3 — Mais fontes ✔ concluída (parcial)
+- [x] Coletor Behance (Playwright)
+- [x] Coletor Land-book
+- [ ] Coletor Awwwards
+
+### Fase 4 — Extensões futuras (conforme uso)
 - [ ] Categorização com Claude API (taxonomia fixa)
-- [ ] E-mail digest semanal
-
-### Fase 4 — Refinamentos (conforme uso)
+- [ ] E-mail digest semanal (descartado por ora — ver seção 4)
 - [ ] Favoritos / coleções por projeto
 - [ ] Detecção de paleta de cores das thumbs (filtrar por cor)
 - [ ] Migrar thumbs para bucket se o repo crescer demais
