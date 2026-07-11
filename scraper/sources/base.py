@@ -10,6 +10,13 @@ USER_AGENT = (
     "+https://github.com/jpclima96/ideas-scraper)"
 )
 
+# Vários sites (Land-book, CDNs de imagem) respondem 403 a User-Agents que
+# não sejam de navegador. Usamos este UA realista para as requisições HTTP.
+BROWSER_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
 
 @dataclass
 class RawItem:

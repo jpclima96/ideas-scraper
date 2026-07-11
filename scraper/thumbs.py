@@ -7,12 +7,14 @@ import httpx
 from PIL import Image
 
 from .models import THUMBS_DIR
-from .sources.base import USER_AGENT
+from .sources.base import BROWSER_UA
 
 THUMB_WIDTH = 400
 
 
-def save_thumb(ref_id: str, image_url: str, client: httpx.Client | None = None) -> str:
+def save_thumb(
+    ref_id: str, image_url: str, referer: str = "", client: httpx.Client | None = None
+) -> str:
     """Baixa image_url e salva data/thumbs/<id>.webp. Retorna o caminho relativo ou "" se falhar."""
     if not image_url:
         return ""
@@ -22,9 +24,13 @@ def save_thumb(ref_id: str, image_url: str, client: httpx.Client | None = None) 
     if dest.exists():
         return rel
     own_client = client is None
+    # Referer ajuda em CDNs com proteção anti-hotlink (ex.: Behance).
+    headers = {"User-Agent": BROWSER_UA}
+    if referer:
+        headers["Referer"] = referer
     try:
         client = client or httpx.Client(
-            headers={"User-Agent": USER_AGENT}, follow_redirects=True, timeout=30
+            headers=headers, follow_redirects=True, timeout=30
         )
         resp = client.get(image_url)
         resp.raise_for_status()
