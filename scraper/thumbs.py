@@ -22,10 +22,10 @@ def save_thumb(ref_id: str, image_url: str, client: httpx.Client | None = None) 
     if dest.exists():
         return rel
     own_client = client is None
-    client = client or httpx.Client(
-        headers={"User-Agent": USER_AGENT}, follow_redirects=True, timeout=30
-    )
     try:
+        client = client or httpx.Client(
+            headers={"User-Agent": USER_AGENT}, follow_redirects=True, timeout=30
+        )
         resp = client.get(image_url)
         resp.raise_for_status()
         img = Image.open(io.BytesIO(resp.content)).convert("RGB")
@@ -37,5 +37,5 @@ def save_thumb(ref_id: str, image_url: str, client: httpx.Client | None = None) 
         print(f"  ! thumb falhou ({image_url}): {exc}")
         return ""
     finally:
-        if own_client:
+        if own_client and client is not None:
             client.close()

@@ -3,8 +3,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
+# Mantido em ASCII: httpx recusa cabeçalhos com caracteres não-ASCII
+# (um acento aqui quebrava o Land-book e o download de todas as thumbs).
 USER_AGENT = (
-    "ideas-scraper/0.1 (coletor pessoal de referências de design; "
+    "ideas-scraper/0.1 (personal design reference collector; "
     "+https://github.com/jpclima96/ideas-scraper)"
 )
 
