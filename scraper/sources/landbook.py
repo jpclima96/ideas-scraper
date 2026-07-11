@@ -4,7 +4,7 @@ from __future__ import annotations
 import httpx
 from bs4 import BeautifulSoup
 
-from .base import USER_AGENT, RawItem, dedup_by_url
+from .base import BROWSER_UA, RawItem, dedup_by_url
 
 URL = "https://land-book.com/"
 
@@ -29,6 +29,14 @@ def parse_html(html: str) -> list[RawItem]:
 
 
 def fetch() -> list[RawItem]:
-    resp = httpx.get(URL, headers={"User-Agent": USER_AGENT}, follow_redirects=True, timeout=30)
+    resp = httpx.get(
+        URL,
+        headers={"User-Agent": BROWSER_UA, "Accept-Language": "en-US,en;q=0.9"},
+        follow_redirects=True,
+        timeout=30,
+    )
+    print(f"  landbook: HTTP {resp.status_code}, {len(resp.text)} bytes")
     resp.raise_for_status()
-    return parse_html(resp.text)
+    items = parse_html(resp.text)
+    print(f"  landbook: {len(items)} itens após parse (seletor a[href*='/websites/'])")
+    return items

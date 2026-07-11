@@ -54,14 +54,20 @@ def run() -> None:
             traceback.print_exc()
             continue
         pairs = merge_new(refs + new_refs, raw)
-        print(f"{name}: {len(raw)} coletados, {len(pairs)} novos")
+        thumbs_ok = 0
         for ref, image_url in pairs:
-            ref.thumb = thumbs.save_thumb(ref.id, image_url)
+            # O Referer (página de origem) ajuda em CDNs com anti-hotlink.
+            ref.thumb = thumbs.save_thumb(ref.id, image_url, referer=ref.url)
+            if ref.thumb:
+                thumbs_ok += 1
             new_refs.append(ref)
+        print(f"{name}: {len(raw)} coletados, {len(pairs)} novos, {thumbs_ok} com thumbnail")
 
     if new_refs:
         save_references(refs + new_refs)
-    print(f"\nTotal de novos itens: {len(new_refs)} (acervo: {len(refs) + len(new_refs)})")
+    total_thumbs = sum(1 for r in new_refs if r.thumb)
+    print(f"\nTotal de novos itens: {len(new_refs)} ({total_thumbs} com thumbnail); "
+          f"acervo: {len(refs) + len(new_refs)}")
 
 
 if __name__ == "__main__":

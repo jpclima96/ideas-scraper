@@ -4,9 +4,10 @@ from __future__ import annotations
 import time
 
 import feedparser
+import httpx
 from bs4 import BeautifulSoup
 
-from .base import USER_AGENT, RawItem, dedup_by_url
+from .base import BROWSER_UA, RawItem, dedup_by_url
 
 FEEDS = [
     "https://dribbble.com/shots/popular.rss",
@@ -47,11 +48,21 @@ def parse_feed(parsed: feedparser.FeedParserDict) -> list[RawItem]:
 
 def fetch() -> list[RawItem]:
     items: list[RawItem] = []
-    for feed_url in FEEDS:
-        parsed = feedparser.parse(feed_url, agent=USER_AGENT)
-        found = parse_feed(parsed)
-        if not found:
-            print(f"  dribbble: feed vazio ou indisponível: {feed_url}")
-        items.extend(found)
-        time.sleep(2)  # educação com o servidor
+    headers = {
+        "User-Agent": BROWSER_UA,
+        "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+    }
+    with httpx.Client(headers=headers, follow_redirects=True, timeout=30) as client:
+        for feed_url in FEEDS:
+            try:
+                resp = client.get(feed_url)
+            except Exception as exc:
+                print(f"  dribbble: erro em {feed_url}: {exc}")
+                continue
+            parsed = feedparser.parse(resp.content)
+            found = parse_feed(parsed)
+            print(f"  dribbble: {feed_url} -> HTTP {resp.status_code}, "
+                  f"{len(resp.content)} bytes, {len(found)} itens")
+            items.extend(found)
+            time.sleep(2)  # educação com o servidor
     return dedup_by_url(items)
