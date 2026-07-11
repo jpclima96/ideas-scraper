@@ -4,19 +4,48 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ideas — referências de design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
 </head>
 <body>
   <header>
-    <h1>💡 Ideas</h1>
+    <p class="eyebrow">Acervo</p>
+    <h1>Ideas &amp; Design</h1>
     <p class="subtitle">Referências de design web &amp; mobile, coletadas automaticamente do Dribbble, Behance e Land-book.</p>
-    <input id="search" type="search" placeholder="Buscar por título, autor ou tag…" autocomplete="off">
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Buscar por título, autor ou tag…" autocomplete="off">
+      <div id="view-toggle" class="view-toggle" role="tablist" aria-label="Modo de visualização">
+        <button data-view="coverflow" class="on" role="tab" aria-selected="true">Vitrine</button>
+        <button data-view="grid" role="tab" aria-selected="false">Grade</button>
+      </div>
+    </div>
+
     <div id="filters"></div>
-    <p id="count" class="count"></p>
   </header>
-  <main id="grid" class="grid"></main>
-  <p id="empty" class="empty" hidden>Nenhuma referência encontrada. O acervo é preenchido pela GitHub Action diária.</p>
+
+  <main>
+    <section id="coverflow" class="coverflow" aria-roledescription="carrossel">
+      <button class="cf-nav cf-prev" aria-label="Anterior">←</button>
+      <div class="cf-stage" id="cf-stage"></div>
+      <button class="cf-nav cf-next" aria-label="Próximo">→</button>
+      <div class="cf-info">
+        <div id="cf-meta" class="cf-meta"></div>
+        <p id="cf-counter" class="cf-counter"></p>
+      </div>
+    </section>
+
+    <section id="grid-view" hidden>
+      <p id="count" class="count"></p>
+      <div id="grid" class="grid"></div>
+    </section>
+
+    <p id="empty" class="empty" hidden>Nenhuma referência encontrada. O acervo é preenchido pela GitHub Action diária.</p>
+  </main>
+
   <footer>
     <p>As imagens são miniaturas com link e crédito aos autores originais. Acervo pessoal de estudo.</p>
   </footer>
