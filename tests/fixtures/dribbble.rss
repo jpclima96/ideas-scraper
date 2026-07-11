@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Dribbble - Popular</title>
+    <link>https://dribbble.com/shots/popular</link>
+    <item>
+      <title>Fintech Dashboard Dark Mode</title>
+      <link>https://dribbble.com/shots/11111-fintech-dashboard</link>
+      <dc:creator>Jane Designer</dc:creator>
+      <description><![CDATA[
+        <p><a href="https://dribbble.com/shots/11111-fintech-dashboard"><img src="https://cdn.dribbble.com/userupload/11111/file/original.png" alt="Fintech Dashboard" /></a></p>
+      ]]></description>
+      <category>dashboard</category>
+      <category>dark</category>
+    </item>
+    <item>
+      <title>Travel App Onboarding</title>
+      <link>https://dribbble.com/shots/22222-travel-app</link>
+      <dc:creator>John Doe</dc:creator>
+      <description><![CDATA[
+        <img src="https://cdn.dribbble.com/userupload/22222/file/original.png" alt="Travel App" />
+      ]]></description>
+      <category>mobile</category>
+    </item>
+    <item>
+      <title>Sem imagem nem problema</title>
+      <link>https://dribbble.com/shots/33333-plain</link>
+      <description>apenas texto</description>
+    </item>
+  </channel>
+</rss>
