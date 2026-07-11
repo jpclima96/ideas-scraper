@@ -4,15 +4,17 @@ const FILTER_GROUPS = [
   { key: "platform", label: "Plataforma" },
   { key: "styles", label: "Estilo" },
 ];
-const CF_MAX = 60; // limite de cards na vitrine (a grade mostra tudo)
+const SECONDARY = ["source", "platform", "styles"];
+const CF_MAX = 60; // limite de slides na vitrine (a grade mostra tudo)
 
-const state = { refs: [], dataBase: "", query: "", view: "coverflow", focus: 0, filtered: [], active: {} };
+const state = { refs: [], dataBase: "", query: "", view: "stage", filtered: [], active: {} };
 FILTER_GROUPS.forEach((g) => (state.active[g.key] = new Set()));
 
-let cfCards = [];
-let suppressClick = false; // evita que um swipe dispare o clique do card
+let swiper = null;
+let backdropLayer = 0;
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-// No Pages o artefato tem data/ ao lado do index; rodando do repo, data/ é irmã de site/.
+/* ---------- Dados ---------- */
 async function loadData() {
   for (const base of ["data/", "../data/"]) {
     try {
@@ -47,127 +49,166 @@ function badgeValues(ref) {
   );
 }
 
+function countValues(key) {
+  const counts = new Map();
+  for (const ref of state.refs) {
+    for (const v of valuesOf(ref, key)) counts.set(v, (counts.get(v) || 0) + 1);
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+/* ---------- Backdrop imersivo ---------- */
+function setBackdrop(url) {
+  const layers = document.querySelectorAll(".backdrop-layer");
+  if (!layers.length) return;
+  const next = layers[backdropLayer ^ 1];
+  const cur = layers[backdropLayer];
+  next.style.backgroundImage = url ? `url("${url}")` : "none";
+  next.classList.add("show");
+  cur.classList.remove("show");
+  backdropLayer ^= 1;
+}
+
 /* ---------- Filtros ---------- */
-function renderFilters() {
-  const root = document.getElementById("filters");
+function chip(label, n, on, handler) {
+  const b = document.createElement("button");
+  b.className = "chip" + (on ? " on" : "");
+  b.innerHTML = n == null ? label : `${label}<span class="n">${n}</span>`;
+  b.onclick = handler;
+  return b;
+}
+
+function renderChips() {
+  const root = document.getElementById("chips");
   root.innerHTML = "";
-  for (const group of FILTER_GROUPS) {
-    const counts = new Map();
-    for (const ref of state.refs) {
-      for (const v of valuesOf(ref, group.key)) counts.set(v, (counts.get(v) || 0) + 1);
-    }
-    if (!counts.size) continue;
-
-    const primary = group.key === "type";
-    const row = document.createElement("div");
-    row.className = "filter-row" + (primary ? "" : " secondary");
-
-    if (!primary) {
-      const label = document.createElement("span");
-      label.className = "filter-label";
-      label.textContent = group.label;
-      row.appendChild(label);
-    } else {
-      const all = document.createElement("button");
-      all.className = "chip" + (state.active.type.size === 0 ? " on" : "");
-      all.textContent = "Todos";
-      all.onclick = () => { state.active.type.clear(); onFilterChange(); };
-      row.appendChild(all);
-    }
-
-    [...counts.entries()]
-      .sort((a, b) => b[1] - a[1])
-      .forEach(([value, n]) => {
-        const chip = document.createElement("button");
-        chip.className = "chip" + (state.active[group.key].has(value) ? " on" : "");
-        chip.innerHTML = `${value}<span class="n">${n}</span>`;
-        chip.onclick = () => {
-          const set = state.active[group.key];
-          set.has(value) ? set.delete(value) : set.add(value);
-          onFilterChange();
-        };
-        row.appendChild(chip);
-      });
-    root.appendChild(row);
+  root.appendChild(
+    chip("Todos", null, state.active.type.size === 0, () => {
+      state.active.type.clear();
+      onFilterChange();
+    })
+  );
+  for (const [value, n] of countValues("type")) {
+    root.appendChild(
+      chip(value, n, state.active.type.has(value), () => {
+        toggle("type", value);
+      })
+    );
   }
 }
 
-/* ---------- Coverflow ---------- */
-function renderCoverflow() {
-  const stage = document.getElementById("cf-stage");
-  stage.innerHTML = "";
-  cfCards = [];
-  const items = state.filtered.slice(0, CF_MAX);
+function renderFilterPanel() {
+  const panel = document.getElementById("filter-panel");
+  panel.innerHTML = "";
+  for (const key of SECONDARY) {
+    const entries = countValues(key);
+    if (!entries.length) continue;
+    const group = document.createElement("div");
+    group.className = "fp-group";
+    const label = document.createElement("div");
+    label.className = "fp-label";
+    label.textContent = FILTER_GROUPS.find((g) => g.key === key).label;
+    const chips = document.createElement("div");
+    chips.className = "fp-chips";
+    for (const [value, n] of entries) {
+      chips.appendChild(chip(value, n, state.active[key].has(value), () => toggle(key, value)));
+    }
+    group.append(label, chips);
+    panel.appendChild(group);
+  }
+  const footer = document.createElement("div");
+  footer.className = "fp-footer";
+  const clear = document.createElement("button");
+  clear.className = "fp-clear";
+  clear.textContent = "Limpar filtros";
+  clear.onclick = () => {
+    SECONDARY.forEach((k) => state.active[k].clear());
+    onFilterChange();
+  };
+  footer.appendChild(clear);
+  panel.appendChild(footer);
 
-  items.forEach((ref, i) => {
-    const card = document.createElement("div");
-    card.className = "cf-card";
+  const activeCount = SECONDARY.reduce((s, k) => s + state.active[k].size, 0);
+  const badge = document.getElementById("filters-badge");
+  badge.hidden = activeCount === 0;
+  badge.textContent = String(activeCount);
+}
+
+function toggle(key, value) {
+  const set = state.active[key];
+  set.has(value) ? set.delete(value) : set.add(value);
+  onFilterChange();
+}
+
+/* ---------- Coverflow ---------- */
+function buildSlides() {
+  const wrapper = document.getElementById("cf-wrapper");
+  wrapper.innerHTML = "";
+  for (const ref of state.filtered.slice(0, CF_MAX)) {
+    const slide = document.createElement("div");
+    slide.className = "swiper-slide";
     if (ref.thumb) {
       const img = document.createElement("img");
       img.loading = "lazy";
       img.src = state.dataBase + ref.thumb;
       img.alt = ref.title;
-      card.appendChild(img);
+      slide.appendChild(img);
     } else {
-      card.innerHTML = '<div class="noimg">🖼️</div>';
+      slide.innerHTML = '<div class="noimg">🖼️</div>';
     }
-    card.addEventListener("click", () => {
-      if (suppressClick) return;
-      if (i === state.focus) window.open(ref.url, "_blank", "noopener");
-      else { state.focus = i; positionCoverflow(); }
+    slide.addEventListener("click", () => {
+      if (swiper && slide === swiper.slides[swiper.activeIndex]) {
+        window.open(ref.url, "_blank", "noopener");
+      }
     });
-    stage.appendChild(card);
-    cfCards.push(card);
-  });
-  positionCoverflow();
+    wrapper.appendChild(slide);
+  }
 }
 
-function positionCoverflow() {
-  const spacing = 150, angle = 12, depth = 120;
-  cfCards.forEach((card, i) => {
-    const off = i - state.focus;
-    const abs = Math.abs(off);
-    if (abs > 4) {
-      card.style.opacity = "0";
-      card.style.pointerEvents = "none";
-      card.style.transform = `translateX(${off * spacing}px) translateZ(-700px)`;
-      return;
-    }
-    const scale = off === 0 ? 1 : Math.max(0.62, 1 - abs * 0.12);
-    card.style.transform =
-      `translateX(${off * spacing}px) translateZ(${-abs * depth}px) rotateY(${off * -angle}deg) scale(${scale})`;
-    card.style.opacity = String(1 - abs * 0.14);
-    card.style.zIndex = String(50 - abs);
-    card.style.pointerEvents = "auto";
-    card.classList.toggle("focused", off === 0);
+function initSwiper() {
+  const items = state.filtered.slice(0, CF_MAX);
+  const middle = items.length ? Math.floor((items.length - 1) / 2) : 0;
+  swiper = new Swiper(".swiper.cf", {
+    effect: reduceMotion ? "slide" : "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    initialSlide: middle,
+    speed: reduceMotion ? 200 : 450,
+    keyboard: { enabled: true },
+    navigation: { prevEl: ".cf-prev", nextEl: ".cf-next" },
+    coverflowEffect: { rotate: 8, depth: 220, modifier: 1.6, stretch: 0, slideShadows: true },
+    on: {
+      init(sw) { updateCoverMeta(sw); },
+      slideChange(sw) { updateCoverMeta(sw); },
+    },
   });
-  updateCoverMeta();
 }
 
-function updateCoverMeta() {
+function updateCoverMeta(sw) {
+  const inst = sw || swiper;
   const meta = document.getElementById("cf-meta");
   const counter = document.getElementById("cf-counter");
   const items = state.filtered.slice(0, CF_MAX);
-  const ref = items[state.focus];
-  if (!ref) { meta.innerHTML = ""; counter.textContent = ""; return; }
+  const idx = inst ? inst.activeIndex : 0;
+  const ref = items[idx];
+  if (!ref) { meta.innerHTML = ""; counter.textContent = ""; setBackdrop(null); return; }
 
-  const badges = badgeValues(ref)
-    .map((v) => `<span class="badge">${v}</span>`)
-    .join("");
+  const badges = badgeValues(ref).map((v) => `<span class="badge">${v}</span>`).join("");
   meta.innerHTML =
     `<div class="cf-title">${ref.title}</div>` +
     `<div class="cf-byline">${[ref.author, ref.source].filter(Boolean).join(" · ")}</div>` +
     `<div class="cf-badges">${badges}</div>` +
     `<a class="cf-link" href="${ref.url}" target="_blank" rel="noopener noreferrer">ver original ↗</a>`;
 
-  const extra = state.filtered.length > items.length ? ` (de ${state.filtered.length})` : "";
-  counter.textContent = `${state.focus + 1} / ${items.length}${extra}`;
+  const extra = state.filtered.length > items.length ? ` de ${state.filtered.length}` : "";
+  counter.textContent = `${idx + 1} / ${items.length}${extra}`;
+  setBackdrop(ref.thumb ? state.dataBase + ref.thumb : null);
 }
 
-function moveFocus(delta) {
-  const max = Math.min(state.filtered.length, CF_MAX) - 1;
-  state.focus = Math.max(0, Math.min(max, state.focus + delta));
-  positionCoverflow();
+function rebuildStage() {
+  if (swiper) { swiper.destroy(true, true); swiper = null; }
+  buildSlides();
+  initSwiper();
 }
 
 /* ---------- Grade ---------- */
@@ -220,37 +261,31 @@ function renderGrid() {
 
 /* ---------- Visões ---------- */
 function applyView() {
-  const isCover = state.view === "coverflow";
+  const isStage = state.view === "stage";
   const empty = state.filtered.length === 0;
-  document.getElementById("coverflow").hidden = empty || !isCover;
-  document.getElementById("grid-view").hidden = empty || isCover;
+  document.getElementById("stage-view").hidden = false; // hero/controles sempre visíveis
+  document.querySelector(".coverflow").hidden = empty || !isStage;
+  document.querySelector(".cf-info").hidden = empty || !isStage;
+  document.getElementById("grid-view").hidden = empty || isStage;
   document.getElementById("empty").hidden = !empty;
   document.querySelectorAll("#view-toggle button").forEach((b) => {
     const on = b.dataset.view === state.view;
     b.classList.toggle("on", on);
     b.setAttribute("aria-selected", String(on));
   });
-}
-
-// Foco central deixa a vitrine equilibrada (cards dos dois lados), como na referência.
-function centerFocus() {
-  const n = Math.min(state.filtered.length, CF_MAX);
-  return n > 0 ? Math.floor((n - 1) / 2) : 0;
+  if (isStage && swiper) swiper.update();
 }
 
 function render() {
   state.filtered = visibleRefs();
-  const max = Math.min(state.filtered.length, CF_MAX) - 1;
-  state.focus = Math.max(0, Math.min(max, state.focus));
-  renderFilters();
-  renderCoverflow();
+  renderChips();
+  renderFilterPanel();
+  rebuildStage();
   renderGrid();
   applyView();
 }
 
 function onFilterChange() {
-  state.filtered = visibleRefs();
-  state.focus = centerFocus();
   render();
 }
 
@@ -267,36 +302,23 @@ document.getElementById("view-toggle").addEventListener("click", (e) => {
   applyView();
 });
 
-document.querySelector(".cf-prev").addEventListener("click", () => moveFocus(-1));
-document.querySelector(".cf-next").addEventListener("click", () => moveFocus(1));
-
-document.addEventListener("keydown", (e) => {
-  if (state.view !== "coverflow") return;
-  if (e.key === "ArrowLeft") moveFocus(-1);
-  else if (e.key === "ArrowRight") moveFocus(1);
+// Painel de filtros: abrir/fechar
+const filtersBtn = document.getElementById("filters-btn");
+const filterPanel = document.getElementById("filter-panel");
+filtersBtn.addEventListener("click", () => {
+  const open = filterPanel.hidden;
+  filterPanel.hidden = !open;
+  filtersBtn.setAttribute("aria-expanded", String(open));
 });
-
-// Arrasto / swipe no palco
-(() => {
-  const stage = document.getElementById("cf-stage");
-  let startX = null;
-  stage.addEventListener("pointerdown", (e) => { startX = e.clientX; suppressClick = false; });
-  window.addEventListener("pointerup", (e) => {
-    if (startX === null) return;
-    const dx = e.clientX - startX;
-    startX = null;
-    if (Math.abs(dx) > 45) {
-      suppressClick = true; // swipe reconhecido: não deixa o clique do card agir
-      moveFocus(dx < 0 ? 1 : -1);
-      setTimeout(() => { suppressClick = false; }, 0);
-    }
-  });
-})();
+document.addEventListener("click", (e) => {
+  if (!filterPanel.hidden && !e.target.closest(".filters-anchor")) {
+    filterPanel.hidden = true;
+    filtersBtn.setAttribute("aria-expanded", "false");
+  }
+});
 
 loadData().then(({ base, refs }) => {
   state.dataBase = base;
   state.refs = refs;
-  state.filtered = visibleRefs();
-  state.focus = centerFocus();
   render();
 });

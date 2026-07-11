@@ -4,51 +4,72 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ideas — referências de design</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/fonts.css">
+  <link rel="stylesheet" href="vendor/swiper-bundle.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
 </head>
 <body>
-  <header>
-    <p class="eyebrow">Acervo</p>
-    <h1>Ideas &amp; Design</h1>
-    <p class="subtitle">Referências de design web &amp; mobile, coletadas automaticamente do Dribbble, Behance e Land-book.</p>
+  <!-- Fundo imersivo (cross-fade da imagem em foco, desfocada) -->
+  <div class="backdrop">
+    <div class="backdrop-layer" data-layer="0"></div>
+    <div class="backdrop-layer" data-layer="1"></div>
+    <div class="backdrop-scrim"></div>
+  </div>
+
+  <main class="stage-view" id="stage-view">
+    <header class="hero">
+      <p class="eyebrow">Acervo de design</p>
+      <h1>Ideas &amp; Design</h1>
+      <p class="subtitle">Referências web &amp; mobile do Dribbble, Behance e Land-book.</p>
+    </header>
 
     <div class="controls">
-      <input id="search" type="search" placeholder="Buscar por título, autor ou tag…" autocomplete="off">
-      <div id="view-toggle" class="view-toggle" role="tablist" aria-label="Modo de visualização">
-        <button data-view="coverflow" class="on" role="tab" aria-selected="true">Vitrine</button>
-        <button data-view="grid" role="tab" aria-selected="false">Grade</button>
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="Buscar…" autocomplete="off">
+      </div>
+      <div id="chips" class="chips" role="group" aria-label="Categorias"></div>
+      <div class="controls-right">
+        <div class="filters-anchor">
+          <button id="filters-btn" class="ctrl-btn" aria-expanded="false" aria-controls="filter-panel">
+            Filtros <span id="filters-badge" class="badge-count" hidden>0</span>
+          </button>
+          <div id="filter-panel" class="filter-panel" hidden></div>
+        </div>
+        <div id="view-toggle" class="view-toggle" role="tablist" aria-label="Modo de visualização">
+          <button data-view="stage" class="on" role="tab" aria-selected="true">Vitrine</button>
+          <button data-view="grid" role="tab" aria-selected="false">Grade</button>
+        </div>
       </div>
     </div>
 
-    <div id="filters"></div>
-  </header>
-
-  <main>
-    <section id="coverflow" class="coverflow" aria-roledescription="carrossel">
+    <section class="coverflow" aria-roledescription="carrossel">
       <button class="cf-nav cf-prev" aria-label="Anterior">←</button>
-      <div class="cf-stage" id="cf-stage"></div>
-      <button class="cf-nav cf-next" aria-label="Próximo">→</button>
-      <div class="cf-info">
-        <div id="cf-meta" class="cf-meta"></div>
-        <p id="cf-counter" class="cf-counter"></p>
+      <div class="swiper cf">
+        <div class="swiper-wrapper" id="cf-wrapper"></div>
       </div>
+      <button class="cf-nav cf-next" aria-label="Próximo">→</button>
     </section>
 
-    <section id="grid-view" hidden>
-      <p id="count" class="count"></p>
-      <div id="grid" class="grid"></div>
-    </section>
-
-    <p id="empty" class="empty" hidden>Nenhuma referência encontrada. O acervo é preenchido pela GitHub Action diária.</p>
+    <div class="cf-info">
+      <div id="cf-meta" class="cf-meta"></div>
+      <p id="cf-counter" class="cf-counter"></p>
+    </div>
   </main>
+
+  <section id="grid-view" class="grid-view" hidden>
+    <p id="count" class="count"></p>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <p id="empty" class="empty" hidden>Nenhuma referência encontrada. O acervo é preenchido pela GitHub Action diária.</p>
 
   <footer>
     <p>As imagens são miniaturas com link e crédito aos autores originais. Acervo pessoal de estudo.</p>
   </footer>
+
+  <script src="vendor/swiper-bundle.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
