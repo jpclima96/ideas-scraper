@@ -1,5 +1,290 @@
 [
  {
+  "id": "fd62bf8a9f37",
+  "title": "https://www.behance.net/gallery/249964707/Sui-Brand-Identity-Website?tracking_source=search_projects|web+design&l=6",
+  "author": "",
+  "url": "https://www.behance.net/gallery/249964707/Sui-Brand-Identity-Website?tracking_source=search_projects|web+design&l=6",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "d702e38203a3",
+  "title": "https://www.behance.net/gallery/252136657/Biorg-Mobile-App-x-Website-Design?tracking_source=search_projects|mobile+app+ui&l=8",
+  "author": "",
+  "url": "https://www.behance.net/gallery/252136657/Biorg-Mobile-App-x-Website-Design?tracking_source=search_projects|mobile+app+ui&l=8",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "c27cc7f39042",
+  "title": "https://www.behance.net/gallery/250457381/Voltpark-Luxury-EV-Charging-App-(UXUI-Case-Study)?tracking_source=search_projects|mobile+app+ui&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/250457381/Voltpark-Luxury-EV-Charging-App-(UXUI-Case-Study)?tracking_source=search_projects|mobile+app+ui&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "b9a09c1eb34f",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/232460565/Adcker-Web-design-and-Development?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "b617225b2924",
+  "title": "https://www.behance.net/gallery/251735951/Intellacy?tracking_source=search_projects|web+design&l=10&bid=227135",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251735951/Intellacy?tracking_source=search_projects|web+design&l=10&bid=227135",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "aab1d415becc",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251936037/Pilorama-Studio-veb-dizajn-sajt-na-tilda?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "a29665b2a8c8",
+  "title": "https://www.behance.net/gallery/249755747/Fintech-web-design-for-a-B2B-payment-service-Payop?tracking_source=search_projects|web+design&l=13",
+  "author": "",
+  "url": "https://www.behance.net/gallery/249755747/Fintech-web-design-for-a-B2B-payment-service-Payop?tracking_source=search_projects|web+design&l=13",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "87325ea0df45",
+  "title": "https://www.behance.net/gallery/237585701/UIUX-Design-for-Marketing-Agency-Website?tracking_source=search_projects|web+design&l=7",
+  "author": "",
+  "url": "https://www.behance.net/gallery/237585701/UIUX-Design-for-Marketing-Agency-Website?tracking_source=search_projects|web+design&l=7",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "7bf12d13d27a",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/249207093/Pera-UI-UX-Design?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "6b2979f4e59a",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/250364871/Lune-Wellness-Hydration-Amazon-Storefront-UIUX?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "6adef4f47e18",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251952185/Web-design-for-premium-pet-grooming?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "68d749f7b7b4",
+  "title": "https://www.behance.net/gallery/251936037/Pilorama-Studio-veb-dizajn-sajt-na-tilda?tracking_source=search_projects|web+design&l=5&bid=226121",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251936037/Pilorama-Studio-veb-dizajn-sajt-na-tilda?tracking_source=search_projects|web+design&l=5&bid=226121",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "6085aaab9126",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251735951/Intellacy?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "56f73502fec0",
+  "title": "https://www.behance.net/gallery/249207093/Pera-UI-UX-Design?tracking_source=search_projects|mobile+app+ui&l=10&bid=227049",
+  "author": "",
+  "url": "https://www.behance.net/gallery/249207093/Pera-UI-UX-Design?tracking_source=search_projects|mobile+app+ui&l=10&bid=227049",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "4f45a48aa91b",
+  "title": "https://www.behance.net/gallery/232460565/Adcker-Web-design-and-Development?tracking_source=search_projects|web+design&l=14",
+  "author": "",
+  "url": "https://www.behance.net/gallery/232460565/Adcker-Web-design-and-Development?tracking_source=search_projects|web+design&l=14",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "42481c1b8b24",
+  "title": "https://www.behance.net/gallery/251549759/FluxRide-Fleet-Management-Platform?tracking_source=search_projects|mobile+app+ui&l=9",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251549759/FluxRide-Fleet-Management-Platform?tracking_source=search_projects|mobile+app+ui&l=9",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "2599c017a7e9",
+  "title": "https://www.behance.net/gallery/251952185/Web-design-for-premium-pet-grooming?tracking_source=search_projects|web+design&l=15&bid=226997",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251952185/Web-design-for-premium-pet-grooming?tracking_source=search_projects|web+design&l=15&bid=226997",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "129d8611dceb",
+  "title": "https://www.behance.net/gallery/213460351/RentEase-Property-SaaS-UI-UX-Design?tracking_source=search_projects|mobile+app+ui&l=12",
+  "author": "",
+  "url": "https://www.behance.net/gallery/213460351/RentEase-Property-SaaS-UI-UX-Design?tracking_source=search_projects|mobile+app+ui&l=12",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
+  "id": "0ed160a20d7c",
+  "title": "https://www.behance.net/gallery/250364871/Lune-Wellness-Hydration-Amazon-Storefront-UIUX?tracking_source=search_projects|mobile+app+ui&l=15&bid=227091",
+  "author": "",
+  "url": "https://www.behance.net/gallery/250364871/Lune-Wellness-Hydration-Amazon-Storefront-UIUX?tracking_source=search_projects|mobile+app+ui&l=15&bid=227091",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-13"
+ },
+ {
   "id": "be90a95321a4",
   "title": "https://www.behance.net/gallery/249651461/Match-Point-Web-Design-Branding?tracking_source=search_projects|web+design&l=11",
   "author": "",
