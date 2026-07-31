@@ -1,5 +1,215 @@
 [
  {
+  "id": "fc78f9bd46fb",
+  "title": "https://www.behance.net/gallery/241915081/Niva-AI-family-assistant?tracking_source=search_projects|mobile+app+ui&l=8",
+  "author": "",
+  "url": "https://www.behance.net/gallery/241915081/Niva-AI-family-assistant?tracking_source=search_projects|mobile+app+ui&l=8",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "e3ac7134b754",
+  "title": "https://www.behance.net/gallery/252137649/PiKi-From-Wish-to-Pick?tracking_source=search_projects|mobile+app+ui&l=13",
+  "author": "",
+  "url": "https://www.behance.net/gallery/252137649/PiKi-From-Wish-to-Pick?tracking_source=search_projects|mobile+app+ui&l=13",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "d249cbd55d7c",
+  "title": "https://www.behance.net/gallery/241718509/Halifax-Common-Community-Branding-Web-Design?tracking_source=search_projects|web+design&l=5&bid=240015",
+  "author": "",
+  "url": "https://www.behance.net/gallery/241718509/Halifax-Common-Community-Branding-Web-Design?tracking_source=search_projects|web+design&l=5&bid=240015",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "d038cac31848",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/246491975/AI-Powered-Personal-Finance-App-UIUX-Design?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "cb24cff641cc",
+  "title": "https://www.behance.net/gallery/253001035/Web-Hero-Headers?tracking_source=search_projects|web+design&l=10&bid=238853",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253001035/Web-Hero-Headers?tracking_source=search_projects|web+design&l=10&bid=238853",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "c15bf908c8e3",
+  "title": "https://www.behance.net/gallery/219801203/KOLON-MALL-UXUI-Renewal?tracking_source=search_projects|mobile+app+ui&l=5&bid=239885",
+  "author": "",
+  "url": "https://www.behance.net/gallery/219801203/KOLON-MALL-UXUI-Renewal?tracking_source=search_projects|mobile+app+ui&l=5&bid=239885",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "be6c7f5f6ca5",
+  "title": "https://www.behance.net/gallery/177296223/Talkie-Language-Learning-app-UI-UX-case-study?tracking_source=search_projects|mobile+app+ui&l=6",
+  "author": "",
+  "url": "https://www.behance.net/gallery/177296223/Talkie-Language-Learning-app-UI-UX-case-study?tracking_source=search_projects|mobile+app+ui&l=6",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "b751e5266a7f",
+  "title": "https://www.behance.net/gallery/251133859/Nova-Post-App?tracking_source=search_projects|mobile+app+ui&l=14",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251133859/Nova-Post-App?tracking_source=search_projects|mobile+app+ui&l=14",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "920b8d81df84",
+  "title": "https://www.behance.net/gallery/251764551/Wall-Gallery-Website?tracking_source=search_projects|web+design&l=15&bid=238843",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251764551/Wall-Gallery-Website?tracking_source=search_projects|web+design&l=15&bid=238843",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "78a90606eb35",
+  "title": "https://www.behance.net/gallery/238108979/UXUI-Design-for-Metropolitan-Museum-of-Art?tracking_source=search_projects|web+design&l=4",
+  "author": "",
+  "url": "https://www.behance.net/gallery/238108979/UXUI-Design-for-Metropolitan-Museum-of-Art?tracking_source=search_projects|web+design&l=4",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "71801b7eaf62",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/226158953/Max-Music-App-Design-UI-UX?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "6cd215ea699a",
+  "title": "https://www.behance.net/gallery/246491975/AI-Powered-Personal-Finance-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=239695",
+  "author": "",
+  "url": "https://www.behance.net/gallery/246491975/AI-Powered-Personal-Finance-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=239695",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "4e843b373603",
+  "title": "https://www.behance.net/gallery/226158953/Max-Music-App-Design-UI-UX?tracking_source=search_projects|mobile+app+ui&l=10&bid=239747",
+  "author": "",
+  "url": "https://www.behance.net/gallery/226158953/Max-Music-App-Design-UI-UX?tracking_source=search_projects|mobile+app+ui&l=10&bid=239747",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
+  "id": "07da250558f7",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/219801203/KOLON-MALL-UXUI-Renewal?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-07-31"
+ },
+ {
   "id": "e95328a5a1ae",
   "title": "title",
   "author": "",
