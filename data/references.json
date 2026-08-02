@@ -1,5 +1,155 @@
 [
  {
+  "id": "f0104fdaaeb9",
+  "title": "https://www.behance.net/gallery/253346733/Spark-Venture-AI-Startup-Web-Design?tracking_source=search_projects|web+design&l=5&bid=241465",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253346733/Spark-Venture-AI-Startup-Web-Design?tracking_source=search_projects|web+design&l=5&bid=241465",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "edb82c642a13",
+  "title": "https://www.behance.net/gallery/241915081/Niva-AI-family-assistant?tracking_source=search_projects|mobile+app+ui&l=9",
+  "author": "",
+  "url": "https://www.behance.net/gallery/241915081/Niva-AI-family-assistant?tracking_source=search_projects|mobile+app+ui&l=9",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "c93aee543462",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253045145/Wellness-Shopify-Website-Ecommerce-Web-Design?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "bf6bc1aecee8",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251907625/Simzo-Global-eSIM-App-UIUX-Design?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "bda6e6a02fb3",
+  "title": "https://www.behance.net/gallery/253045145/Wellness-Shopify-Website-Ecommerce-Web-Design?tracking_source=search_projects|web+design&l=15&bid=241395",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253045145/Wellness-Shopify-Website-Ecommerce-Web-Design?tracking_source=search_projects|web+design&l=15&bid=241395",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "ecommerce",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "b66222fdaf70",
+  "title": "title",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253346733/Spark-Venture-AI-Startup-Web-Design?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "9f00d7913881",
+  "title": "https://www.behance.net/gallery/253143993/Stratman-Law-Firm-Branding-Web-Design?tracking_source=search_projects|web+design&l=10&bid=240421",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253143993/Stratman-Law-Firm-Branding-Web-Design?tracking_source=search_projects|web+design&l=10&bid=240421",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "7d8a17c46ed2",
+  "title": "https://www.behance.net/gallery/237704709/Dental-Landing-Page-Web-Site-Design-Ivory-Clinic?tracking_source=search_projects|web+design&l=8",
+  "author": "",
+  "url": "https://www.behance.net/gallery/237704709/Dental-Landing-Page-Web-Site-Design-Ivory-Clinic?tracking_source=search_projects|web+design&l=8",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "2d2a376ac8c9",
+  "title": "https://www.behance.net/gallery/251907625/Simzo-Global-eSIM-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=239435",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251907625/Simzo-Global-eSIM-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=239435",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
+  "id": "02a4aaf3c3d5",
+  "title": "https://www.behance.net/gallery/246491975/AI-Powered-Personal-Finance-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=10&bid=239695",
+  "author": "",
+  "url": "https://www.behance.net/gallery/246491975/AI-Powered-Personal-Finance-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=10&bid=239695",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-02"
+ },
+ {
   "id": "cca26d79cc68",
   "title": "https://www.behance.net/gallery/252294469/Immutable-Website-Redesign?tracking_source=search_projects|web+design&l=10&bid=239211",
   "author": "",
