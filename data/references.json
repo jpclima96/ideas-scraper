@@ -1,5 +1,189 @@
 [
  {
+  "id": "e510960beb58",
+  "title": "https://www.behance.net/gallery/250158271/3d-UI?tracking_source=search_projects|mobile+app+ui&l=5&bid=253323",
+  "author": "",
+  "url": "https://www.behance.net/gallery/250158271/3d-UI?tracking_source=search_projects|mobile+app+ui&l=5&bid=253323",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [
+   "3d"
+  ],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "cc6ae4253b63",
+  "title": "https://www.behance.net/gallery/253402707/Logistics-and-Shipping-Service-Website-UX-UI-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=253069",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253402707/Logistics-and-Shipping-Service-Website-UX-UI-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=253069",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "b0b47e78cb9c",
+  "title": "https://www.behance.net/gallery/224843707/Budgeting-app?tracking_source=search_projects|mobile+app+ui&l=10&bid=252875",
+  "author": "",
+  "url": "https://www.behance.net/gallery/224843707/Budgeting-app?tracking_source=search_projects|mobile+app+ui&l=10&bid=252875",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "ae6d4e7ef650",
+  "title": "https://www.behance.net/gallery/253406303/Eleviq-Premium-Drone-E-commerce-Landing-Page?tracking_source=search_projects|web+design&l=7",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253406303/Eleviq-Premium-Drone-E-commerce-Landing-Page?tracking_source=search_projects|web+design&l=7",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "ecommerce",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "a680790a6e5e",
+  "title": "https://www.behance.net/gallery/236873481/Spectra-Eye-Clinic-UXUI?tracking_source=search_projects|web+design&l=4",
+  "author": "",
+  "url": "https://www.behance.net/gallery/236873481/Spectra-Eye-Clinic-UXUI?tracking_source=search_projects|web+design&l=4",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "a2ecd881dfa2",
+  "title": "https://www.behance.net/gallery/241915081/Niva-AI-family-assistant?tracking_source=search_projects|mobile+app+ui&l=14",
+  "author": "",
+  "url": "https://www.behance.net/gallery/241915081/Niva-AI-family-assistant?tracking_source=search_projects|mobile+app+ui&l=14",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "826d1fa496a2",
+  "title": "Link to project - 3d UI",
+  "author": "",
+  "url": "https://www.behance.net/gallery/250158271/3d-UI?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [
+   "3d"
+  ],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "6d953a9346a3",
+  "title": "Link to project - Logistics and Shipping Service Website UX UI Design",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253402707/Logistics-and-Shipping-Service-Website-UX-UI-Design?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "676604c053d0",
+  "title": "https://www.behance.net/gallery/254035505/Architecture-Studio-Website-Design?tracking_source=search_projects|web+design&l=10&bid=253309",
+  "author": "",
+  "url": "https://www.behance.net/gallery/254035505/Architecture-Studio-Website-Design?tracking_source=search_projects|web+design&l=10&bid=253309",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "4751828174fc",
+  "title": "https://www.behance.net/gallery/247308145/Presentation-Design-Portfolio-Business-Pitch-Decks?tracking_source=search_projects|web+design&l=5&bid=252517",
+  "author": "",
+  "url": "https://www.behance.net/gallery/247308145/Presentation-Design-Portfolio-Business-Pitch-Decks?tracking_source=search_projects|web+design&l=5&bid=252517",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "421ed29cb822",
+  "title": "Link to project - Budgeting app",
+  "author": "",
+  "url": "https://www.behance.net/gallery/224843707/Budgeting-app?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
+  "id": "05e63eca40aa",
+  "title": "Link to project - Architecture Studio Website Design",
+  "author": "",
+  "url": "https://www.behance.net/gallery/254035505/Architecture-Studio-Website-Design?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-20"
+ },
+ {
   "id": "df19547f771b",
   "title": "https://www.behance.net/gallery/177296223/Talkie-Language-Learning-app-UI-UX-case-study?tracking_source=search_projects|mobile+app+ui&l=9",
   "author": "",
