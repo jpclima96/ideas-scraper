@@ -1,5 +1,202 @@
 [
  {
+  "id": "f13d8870d213",
+  "title": "https://www.behance.net/gallery/252136657/Biorg-Mobile-App-x-Website-Design?tracking_source=search_projects|web+design&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/252136657/Biorg-Mobile-App-x-Website-Design?tracking_source=search_projects|web+design&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "ea3c345c8bdf",
+  "title": "https://www.behance.net/gallery/159088861/Mediaplay-Mobile-App?tracking_source=search_projects|mobile+app+ui&l=10&bid=257265",
+  "author": "",
+  "url": "https://www.behance.net/gallery/159088861/Mediaplay-Mobile-App?tracking_source=search_projects|mobile+app+ui&l=10&bid=257265",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "d0abfbf407c8",
+  "title": "https://www.behance.net/gallery/246705299/Smart-AI-Website-design-With-UIUX?tracking_source=search_projects|mobile+app+ui&l=5&bid=259193",
+  "author": "",
+  "url": "https://www.behance.net/gallery/246705299/Smart-AI-Website-design-With-UIUX?tracking_source=search_projects|mobile+app+ui&l=5&bid=259193",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "aef89b890d38",
+  "title": "https://www.behance.net/gallery/251840639/Travel-Mobile-App-UI-Design?tracking_source=search_projects|mobile+app+ui&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/251840639/Travel-Mobile-App-UI-Design?tracking_source=search_projects|mobile+app+ui&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "94bb537e4d48",
+  "title": "https://www.behance.net/gallery/254041507/HAVEN-Luxury-Real-Estate-Branding-UXUI-Design?tracking_source=search_projects|web+design&l=15&bid=258855",
+  "author": "",
+  "url": "https://www.behance.net/gallery/254041507/HAVEN-Luxury-Real-Estate-Branding-UXUI-Design?tracking_source=search_projects|web+design&l=15&bid=258855",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "83366d256850",
+  "title": "Link to project - EQUA™",
+  "author": "",
+  "url": "https://www.behance.net/gallery/247166337/EQUA?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "7dce90f65658",
+  "title": "https://www.behance.net/gallery/247166337/EQUA?tracking_source=search_projects|mobile+app+ui&l=13",
+  "author": "",
+  "url": "https://www.behance.net/gallery/247166337/EQUA?tracking_source=search_projects|mobile+app+ui&l=13",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "75d3007aeb96",
+  "title": "Link to project - ARDE STUDIO | INTERIOR DESIGN | WEBSITE",
+  "author": "",
+  "url": "https://www.behance.net/gallery/249726081/ARDE-STUDIO-INTERIOR-DESIGN-WEBSITE?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "673c83c555f2",
+  "title": "https://www.behance.net/gallery/249726081/ARDE-STUDIO-INTERIOR-DESIGN-WEBSITE?tracking_source=search_projects|web+design&l=5&bid=257331",
+  "author": "",
+  "url": "https://www.behance.net/gallery/249726081/ARDE-STUDIO-INTERIOR-DESIGN-WEBSITE?tracking_source=search_projects|web+design&l=5&bid=257331",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "4abcab3aeec0",
+  "title": "https://www.behance.net/gallery/241627267/DayOne-Data-Center-Web-3D?tracking_source=search_projects|web+design&l=10&bid=258339",
+  "author": "",
+  "url": "https://www.behance.net/gallery/241627267/DayOne-Data-Center-Web-3D?tracking_source=search_projects|web+design&l=10&bid=258339",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [
+   "3d"
+  ],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "3316d3ea1211",
+  "title": "Link to project - Smart AI Website design With UI/UX",
+  "author": "",
+  "url": "https://www.behance.net/gallery/246705299/Smart-AI-Website-design-With-UIUX?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "2425166863f7",
+  "title": "https://www.behance.net/gallery/252032339/Radient-Branding-UXUI-Design?tracking_source=search_projects|mobile+app+ui&l=7",
+  "author": "",
+  "url": "https://www.behance.net/gallery/252032339/Radient-Branding-UXUI-Design?tracking_source=search_projects|mobile+app+ui&l=7",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
+  "id": "1e3574058538",
+  "title": "Link to project - HAVEN® | Luxury Real Estate Branding & UX/UI Design",
+  "author": "",
+  "url": "https://www.behance.net/gallery/254041507/HAVEN-Luxury-Real-Estate-Branding-UXUI-Design?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-26"
+ },
+ {
   "id": "f4c2316773a4",
   "title": "Link to project - DayOne Data Center Web 3D",
   "author": "",
