@@ -1,5 +1,187 @@
 [
  {
+  "id": "eae2512cd1c8",
+  "title": "https://www.behance.net/gallery/228672973/Eco-Planet-Web-Design?tracking_source=search_projects|web+design&l=10&bid=260519",
+  "author": "",
+  "url": "https://www.behance.net/gallery/228672973/Eco-Planet-Web-Design?tracking_source=search_projects|web+design&l=10&bid=260519",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "d1d9d54408d9",
+  "title": "https://www.behance.net/gallery/253568131/RYOKU-Fashion-E-commerce-Website?tracking_source=search_projects|web+design&l=9",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253568131/RYOKU-Fashion-E-commerce-Website?tracking_source=search_projects|web+design&l=9",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "ecommerce",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "c42a6f0d5d3f",
+  "title": "Link to project - BraveBrand",
+  "author": "",
+  "url": "https://www.behance.net/gallery/197740141/BraveBrand?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "a04f12422df1",
+  "title": "https://www.behance.net/gallery/238277197/Slam-Clash-Game-UIUX?tracking_source=search_projects|mobile+app+ui&l=10&bid=260575",
+  "author": "",
+  "url": "https://www.behance.net/gallery/238277197/Slam-Clash-Game-UIUX?tracking_source=search_projects|mobile+app+ui&l=10&bid=260575",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "9096e6ead5c1",
+  "title": "Link to project - Slam Clash! Game UI/UX",
+  "author": "",
+  "url": "https://www.behance.net/gallery/238277197/Slam-Clash-Game-UIUX?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "8db16656e443",
+  "title": "Link to project - Eco Planet Web Design",
+  "author": "",
+  "url": "https://www.behance.net/gallery/228672973/Eco-Planet-Web-Design?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "628070fb522f",
+  "title": "https://www.behance.net/gallery/247572757/Real-Estate-Investment-Platform-UXUI-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=260137",
+  "author": "",
+  "url": "https://www.behance.net/gallery/247572757/Real-Estate-Investment-Platform-UXUI-Design?tracking_source=search_projects|mobile+app+ui&l=15&bid=260137",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "5e271eb3b848",
+  "title": "https://www.behance.net/gallery/252109559/Dating-App-Design?tracking_source=search_projects|mobile+app+ui&l=12",
+  "author": "",
+  "url": "https://www.behance.net/gallery/252109559/Dating-App-Design?tracking_source=search_projects|mobile+app+ui&l=12",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "464d740f1af2",
+  "title": "https://www.behance.net/gallery/248314755/PLUMY-BAKERY-Landing-page?tracking_source=search_projects|web+design&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/248314755/PLUMY-BAKERY-Landing-page?tracking_source=search_projects|web+design&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "2c5f0f1ebc8e",
+  "title": "https://www.behance.net/gallery/253434761/Best-AI-App-Motion-Explainer-Video-HowDo-by-Sleeko?tracking_source=search_projects|mobile+app+ui&l=5&bid=260807",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253434761/Best-AI-App-Motion-Explainer-Video-HowDo-by-Sleeko?tracking_source=search_projects|mobile+app+ui&l=5&bid=260807",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [
+   "animation"
+  ],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "2b04780c5082",
+  "title": "https://www.behance.net/gallery/197740141/BraveBrand?tracking_source=search_projects|web+design&l=15&bid=260753",
+  "author": "",
+  "url": "https://www.behance.net/gallery/197740141/BraveBrand?tracking_source=search_projects|web+design&l=15&bid=260753",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
+  "id": "0633506ae54e",
+  "title": "https://www.behance.net/gallery/253592411/Zevoa-Super-APP-UI-UX-Mobile-App-Orbix-Studio?tracking_source=search_projects|mobile+app+ui&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/253592411/Zevoa-Super-APP-UI-UX-Mobile-App-Orbix-Studio?tracking_source=search_projects|mobile+app+ui&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-08-28"
+ },
+ {
   "id": "d642c069b2a7",
   "title": "https://www.behance.net/gallery/254438417/Casino-Mobile-App-Template?tracking_source=search_projects|mobile+app+ui&l=10&bid=259831",
   "author": "",
