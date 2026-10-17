@@ -1,5 +1,155 @@
 [
  {
+  "id": "e1f958b7df53",
+  "title": "https://www.behance.net/gallery/256225129/Smart-home-mobile-app-Home-Ai?tracking_source=search_projects|mobile+app+ui&l=5&bid=301233",
+  "author": "",
+  "url": "https://www.behance.net/gallery/256225129/Smart-home-mobile-app-Home-Ai?tracking_source=search_projects|mobile+app+ui&l=5&bid=301233",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "dd2e46b11d71",
+  "title": "https://www.behance.net/gallery/196790285/Monank-Bank-Finance-App?tracking_source=search_projects|mobile+app+ui&l=15&bid=300551",
+  "author": "",
+  "url": "https://www.behance.net/gallery/196790285/Monank-Bank-Finance-App?tracking_source=search_projects|mobile+app+ui&l=15&bid=300551",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "d99749a0dea2",
+  "title": "Link to project - Monank - Bank Finance App",
+  "author": "",
+  "url": "https://www.behance.net/gallery/196790285/Monank-Bank-Finance-App?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "76efec388060",
+  "title": "Link to project - Agency Web Design | Framer Website",
+  "author": "",
+  "url": "https://www.behance.net/gallery/250900725/Agency-Web-Design-Framer-Website?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "39a59032de81",
+  "title": "https://www.behance.net/gallery/111925389/Artem-Pivovarov-Web-Concert-Ecosystem?tracking_source=search_projects|web+design&l=15&bid=299501",
+  "author": "",
+  "url": "https://www.behance.net/gallery/111925389/Artem-Pivovarov-Web-Concert-Ecosystem?tracking_source=search_projects|web+design&l=15&bid=299501",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "3505502c249a",
+  "title": "https://www.behance.net/gallery/255535337/Furniture-SaaS-web-app-UXUI-Redesign?tracking_source=search_projects|web+design&l=5&bid=300723",
+  "author": "",
+  "url": "https://www.behance.net/gallery/255535337/Furniture-SaaS-web-app-UXUI-Redesign?tracking_source=search_projects|web+design&l=5&bid=300723",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "2aa51dadb397",
+  "title": "Link to project - Smart home mobile app Home Ai",
+  "author": "",
+  "url": "https://www.behance.net/gallery/256225129/Smart-home-mobile-app-Home-Ai?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "1c94416c67e3",
+  "title": "https://www.behance.net/gallery/256522703/Brand-Design-Webflow-Webflow-Development-UiUX?tracking_source=search_projects|mobile+app+ui&l=10&bid=300889",
+  "author": "",
+  "url": "https://www.behance.net/gallery/256522703/Brand-Design-Webflow-Webflow-Development-UiUX?tracking_source=search_projects|mobile+app+ui&l=10&bid=300889",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "197ee3aa1aa3",
+  "title": "Link to project - Brand Design Webflow : Webflow Development | Ui/UX",
+  "author": "",
+  "url": "https://www.behance.net/gallery/256522703/Brand-Design-Webflow-Webflow-Development-UiUX?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
+  "id": "043115badc90",
+  "title": "https://www.behance.net/gallery/250900725/Agency-Web-Design-Framer-Website?tracking_source=search_projects|web+design&l=10&bid=299789",
+  "author": "",
+  "url": "https://www.behance.net/gallery/250900725/Agency-Web-Design-Framer-Website?tracking_source=search_projects|web+design&l=10&bid=299789",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-10-17"
+ },
+ {
   "id": "f2c1c1e507d4",
   "title": "https://www.behance.net/gallery/246301339/GUARDBASE-BRANDING-WEBSITE-AI-Security-Startup?tracking_source=search_projects|web+design&l=7",
   "author": "",
