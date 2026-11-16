@@ -1,5 +1,280 @@
 [
  {
+  "id": "eccd46342336",
+  "title": "https://www.behance.net/gallery/227718867/Mech-Dynasty-UI-UX?tracking_source=search_projects|mobile+app+ui&l=10&bid=325761",
+  "author": "",
+  "url": "https://www.behance.net/gallery/227718867/Mech-Dynasty-UI-UX?tracking_source=search_projects|mobile+app+ui&l=10&bid=325761",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "d87f7fedaf01",
+  "title": "https://www.behance.net/gallery/210134087/Lushglow?tracking_source=search_projects|web+design&l=15&bid=325825",
+  "author": "",
+  "url": "https://www.behance.net/gallery/210134087/Lushglow?tracking_source=search_projects|web+design&l=15&bid=325825",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "b13540f4a1da",
+  "title": "https://www.behance.net/gallery/257747751/RIDGELINE-Golf-Dashboard-App-Website-Design?tracking_source=search_projects|mobile+app+ui&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257747751/RIDGELINE-Golf-Dashboard-App-Website-Design?tracking_source=search_projects|mobile+app+ui&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "dashboard",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "87a42bf5473a",
+  "title": "https://www.behance.net/gallery/258296309/Orrin-AI-Agent-Web-App-Chat-UX-Design-System?tracking_source=search_projects|web+design&l=10&bid=324083",
+  "author": "",
+  "url": "https://www.behance.net/gallery/258296309/Orrin-AI-Agent-Web-App-Chat-UX-Design-System?tracking_source=search_projects|web+design&l=10&bid=324083",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "8479d3dd2c97",
+  "title": "https://www.behance.net/gallery/258407441/Government-App-Design-Digital-ID-Services-CivicOne?tracking_source=search_projects|mobile+app+ui&l=15&bid=325837",
+  "author": "",
+  "url": "https://www.behance.net/gallery/258407441/Government-App-Design-Digital-ID-Services-CivicOne?tracking_source=search_projects|mobile+app+ui&l=15&bid=325837",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "820fac201e2c",
+  "title": "https://www.behance.net/gallery/255260777/Payno-Finance-Solution-Orbix-Studio-Mobile-App?tracking_source=search_projects|mobile+app+ui&l=13",
+  "author": "",
+  "url": "https://www.behance.net/gallery/255260777/Payno-Finance-Solution-Orbix-Studio-Mobile-App?tracking_source=search_projects|mobile+app+ui&l=13",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "6a5a92ab69c0",
+  "title": "2xA - Portfolio design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/100083-2xa-home",
+  "source": "landbook",
+  "thumb": "thumbs/6a5a92ab69c0.webp",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "5f6eb62b5ffb",
+  "title": "https://www.behance.net/gallery/246749035/Tags?tracking_source=search_projects|mobile+app+ui&l=8",
+  "author": "",
+  "url": "https://www.behance.net/gallery/246749035/Tags?tracking_source=search_projects|mobile+app+ui&l=8",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "590d4353240d",
+  "title": "Link to project - Government App Design: Digital ID & Services - CivicOne",
+  "author": "",
+  "url": "https://www.behance.net/gallery/258407441/Government-App-Design-Digital-ID-Services-CivicOne?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "4cd0fa69b93b",
+  "title": "Link to project - Orrin: AI Agent Web App, Chat UX & Design System",
+  "author": "",
+  "url": "https://www.behance.net/gallery/258296309/Orrin-AI-Agent-Web-App-Chat-UX-Design-System?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "4538a4d51b26",
+  "title": "Polar — A billing platform for the intelligence era | Polar - Landing design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/102803-polar-a-billing-platform-for-the-intelligence-era-polar",
+  "source": "landbook",
+  "thumb": "thumbs/4538a4d51b26.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "3b999fa3eeff",
+  "title": "Link to project - Flexora Fitness App",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257295335/Flexora-Fitness-App?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "3b49f63c6f96",
+  "title": "https://www.behance.net/gallery/256592789/AI-Project-Management-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=4",
+  "author": "",
+  "url": "https://www.behance.net/gallery/256592789/AI-Project-Management-App-UIUX-Design?tracking_source=search_projects|mobile+app+ui&l=4",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "2d538a9fd88e",
+  "title": "United Carriers | One operator every leg of the journey - Landing design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/98356-united-carriers-one-operator-every-leg-of-the-journey",
+  "source": "landbook",
+  "thumb": "thumbs/2d538a9fd88e.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "1537f426cf40",
+  "title": "https://www.behance.net/gallery/257295335/Flexora-Fitness-App?tracking_source=search_projects|mobile+app+ui&l=5&bid=325427",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257295335/Flexora-Fitness-App?tracking_source=search_projects|mobile+app+ui&l=5&bid=325427",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "0c5ddb5f3e7c",
+  "title": "Perplexity Computer - Landing design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/97312-just-a-moment",
+  "source": "landbook",
+  "thumb": "thumbs/0c5ddb5f3e7c.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "099f20fdc717",
+  "title": "Apex - Small business template for Next.js & Astro - Template design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/102881-apex-small-business-template-for-next-js-and-astro",
+  "source": "landbook",
+  "thumb": "thumbs/099f20fdc717.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
+  "id": "0209eef3e93b",
+  "title": "https://www.behance.net/gallery/257634173/Smart-home-mobile-app-homai?tracking_source=search_projects|mobile+app+ui&l=12",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257634173/Smart-home-mobile-app-homai?tracking_source=search_projects|mobile+app+ui&l=12",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-16"
+ },
+ {
   "id": "e6a435dc8691",
   "title": "Link to project - YOUSPACE | Branding & Web Design",
   "author": "",
