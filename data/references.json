@@ -1,5 +1,235 @@
 [
  {
+  "id": "e88cd372c153",
+  "title": "https://www.behance.net/gallery/244212091/LimeBlue-Music-Branding-Web-Design?tracking_source=search_projects|web+design&l=10&bid=326431",
+  "author": "",
+  "url": "https://www.behance.net/gallery/244212091/LimeBlue-Music-Branding-Web-Design?tracking_source=search_projects|web+design&l=10&bid=326431",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "cb8799fe4e44",
+  "title": "Link to project - Adkings - eCommerce Growth Agency Web Design",
+  "author": "",
+  "url": "https://www.behance.net/gallery/258026477/Adkings-eCommerce-Growth-Agency-Web-Design?tracking_source=search_projects%7Cweb+design",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "ecommerce",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "c5580da6703e",
+  "title": "https://www.behance.net/gallery/244571713/AURA-Fashion-E-Commerce-website-UIUX-Case-Study?tracking_source=search_projects|mobile+app+ui&l=15&bid=327131",
+  "author": "",
+  "url": "https://www.behance.net/gallery/244571713/AURA-Fashion-E-Commerce-website-UIUX-Case-Study?tracking_source=search_projects|mobile+app+ui&l=15&bid=327131",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "ecommerce",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "bf28055f5dd2",
+  "title": "https://www.behance.net/gallery/255521399/Crypto-Banking-and-AI-Powered-Fintech-App?tracking_source=search_projects|mobile+app+ui&l=5&bid=327329",
+  "author": "",
+  "url": "https://www.behance.net/gallery/255521399/Crypto-Banking-and-AI-Powered-Fintech-App?tracking_source=search_projects|mobile+app+ui&l=5&bid=327329",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "a92e2731adde",
+  "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs - Landing design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/103129-free-ai-voice-generator-and-voice-agents-platform-elevenlabs",
+  "source": "landbook",
+  "thumb": "thumbs/a92e2731adde.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "937574737e75",
+  "title": "https://www.behance.net/gallery/258026477/Adkings-eCommerce-Growth-Agency-Web-Design?tracking_source=search_projects|web+design&l=15&bid=325547",
+  "author": "",
+  "url": "https://www.behance.net/gallery/258026477/Adkings-eCommerce-Growth-Agency-Web-Design?tracking_source=search_projects|web+design&l=15&bid=325547",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "ecommerce",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "7bc7c66a9cd1",
+  "title": "https://www.behance.net/gallery/257634173/Smart-home-mobile-app-homai?tracking_source=search_projects|mobile+app+ui&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257634173/Smart-home-mobile-app-homai?tracking_source=search_projects|mobile+app+ui&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "6f4bf7331884",
+  "title": "Damian Fejdasz — AI-Native Product Designer - Portfolio design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/103145-damian-fejdasz-ai-native-product-designer",
+  "source": "landbook",
+  "thumb": "thumbs/6f4bf7331884.webp",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "657ba823e3de",
+  "title": "ramp.design - Other design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/102801-ramp-design",
+  "source": "landbook",
+  "thumb": "thumbs/657ba823e3de.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "4bc82feca5da",
+  "title": "Fortress - Webflow HTML Website Template - Template design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/103251-fortress-webflow-html-website-template",
+  "source": "landbook",
+  "thumb": "thumbs/4bc82feca5da.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "11b9a49a40de",
+  "title": "https://www.behance.net/gallery/210134087/Lushglow?tracking_source=search_projects|web+design&l=5&bid=325825",
+  "author": "",
+  "url": "https://www.behance.net/gallery/210134087/Lushglow?tracking_source=search_projects|web+design&l=5&bid=325825",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "1005d05cecf7",
+  "title": "Link to project - AURA — Fashion E-Commerce website | UI/UX | Case Study",
+  "author": "",
+  "url": "https://www.behance.net/gallery/244571713/AURA-Fashion-E-Commerce-website-UIUX-Case-Study?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "ecommerce",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "0cf1bdf66afb",
+  "title": "Link to project - Crypto Banking and AI Powered Fintech App",
+  "author": "",
+  "url": "https://www.behance.net/gallery/255521399/Crypto-Banking-and-AI-Powered-Fintech-App?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "dashboard",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "0a2da4b5f53b",
+  "title": "https://www.behance.net/gallery/248063485/NOCTRA-Observatory-Website-Design-UXUI?tracking_source=search_projects|web+design&l=11",
+  "author": "",
+  "url": "https://www.behance.net/gallery/248063485/NOCTRA-Observatory-Website-Design-UXUI?tracking_source=search_projects|web+design&l=11",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
+  "id": "05a0753a733c",
+  "title": "Venice — The Design Company of California - Portfolio design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/102800-venice-the-design-company-of-california",
+  "source": "landbook",
+  "thumb": "thumbs/05a0753a733c.webp",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-18"
+ },
+ {
   "id": "eaaba955141f",
   "title": "https://www.behance.net/gallery/258296309/Orrin-AI-Agent-Web-App-Chat-UX-Design-System?tracking_source=search_projects|web+design&l=15&bid=324083",
   "author": "",
