@@ -1,5 +1,190 @@
 [
  {
+  "id": "f8630cc3b6de",
+  "title": "https://www.behance.net/gallery/257247241/KIVOO-Fintech-App-Web-Design?tracking_source=search_projects|mobile+app+ui&l=5&bid=331827",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257247241/KIVOO-Fintech-App-Web-Design?tracking_source=search_projects|mobile+app+ui&l=5&bid=331827",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "ea2aed4ec21b",
+  "title": "Inferact | Frontier Inference You Control - Landing design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/102943-inferact-frontier-inference-you-control",
+  "source": "landbook",
+  "thumb": "thumbs/ea2aed4ec21b.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "dd92eb0012de",
+  "title": "https://www.behance.net/gallery/256472377/Cubee-a-Mobile-App-for-Home-Energy-UI-UX-Design?tracking_source=search_projects|mobile+app+ui&l=4",
+  "author": "",
+  "url": "https://www.behance.net/gallery/256472377/Cubee-a-Mobile-App-for-Home-Energy-UI-UX-Design?tracking_source=search_projects|mobile+app+ui&l=4",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "d4ee386e963e",
+  "title": "https://www.behance.net/gallery/257502053/Health-Tech-Web-App-Dentist-UX-UI-Saas-WEB-DESIGN?tracking_source=search_projects|mobile+app+ui&l=15&bid=331481",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257502053/Health-Tech-Web-App-Dentist-UX-UI-Saas-WEB-DESIGN?tracking_source=search_projects|mobile+app+ui&l=15&bid=331481",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "b5ad19797ff1",
+  "title": "Link to project - Cubee, a Mobile App for Home Energy | UI UX Design",
+  "author": "",
+  "url": "https://www.behance.net/gallery/256472377/Cubee-a-Mobile-App-for-Home-Energy-UI-UX-Design?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "b0ba4b8597fb",
+  "title": "https://www.behance.net/gallery/210134087/Lushglow?tracking_source=search_projects|web+design&l=15&bid=331849",
+  "author": "",
+  "url": "https://www.behance.net/gallery/210134087/Lushglow?tracking_source=search_projects|web+design&l=15&bid=331849",
+  "source": "behance",
+  "thumb": "",
+  "platform": "web",
+  "type": "other",
+  "styles": [],
+  "tags": [
+   "web design"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "85a07d7a83d1",
+  "title": "Eleven v4 and Eleven v4 Turbo Text to Speech models - Landing design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/103128-eleven-v4-and-eleven-v4-turbo-text-to-speech-models",
+  "source": "landbook",
+  "thumb": "thumbs/85a07d7a83d1.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "7462726475ff",
+  "title": "Munch - Restaurant template Next.js & Astro - Template design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/102882-munch-restaurant-template-next-js-and-astro",
+  "source": "landbook",
+  "thumb": "thumbs/7462726475ff.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "6b59326fa014",
+  "title": "HuHealth — Telehealth you can count on. - Landing design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/103132-huhealth-telehealth-you-can-count-on",
+  "source": "landbook",
+  "thumb": "thumbs/6b59326fa014.webp",
+  "platform": "web",
+  "type": "landing",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "5f03390f61fc",
+  "title": "https://www.behance.net/gallery/257445613/SerenX-UXUI-for-Defense-Tech?tracking_source=search_projects|mobile+app+ui&l=10&bid=331521",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257445613/SerenX-UXUI-for-Defense-Tech?tracking_source=search_projects|mobile+app+ui&l=10&bid=331521",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "5b85af010dac",
+  "title": "Sergey Borisov - Art Director / Lead Brand Designer - Portfolio design inspiration",
+  "author": "",
+  "url": "https://land-book.com/websites/103336-sergey-borisov-a-art-director-lead-brand-designer",
+  "source": "landbook",
+  "thumb": "thumbs/5b85af010dac.webp",
+  "platform": "web",
+  "type": "portfolio",
+  "styles": [],
+  "tags": [
+   "web",
+   "website"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
+  "id": "2bf78e9d6bb5",
+  "title": "Link to project - Health Tech Web App Dentist UX UI Saas WEB DESIGN",
+  "author": "",
+  "url": "https://www.behance.net/gallery/257502053/Health-Tech-Web-App-Dentist-UX-UI-Saas-WEB-DESIGN?tracking_source=search_projects%7Cmobile+app+ui",
+  "source": "behance",
+  "thumb": "",
+  "platform": "mobile",
+  "type": "app",
+  "styles": [],
+  "tags": [
+   "mobile app ui"
+  ],
+  "collected_at": "2026-11-24"
+ },
+ {
   "id": "e7459940695b",
   "title": "https://www.behance.net/gallery/258099183/TalimSAT-Digital-SAT-Prep-Platform-UXUI-Case-Study?tracking_source=search_projects|mobile+app+ui&l=10&bid=330023",
   "author": "",
